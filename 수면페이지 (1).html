@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<style type="text/css">
+    a{color: darksalmon;}
+	@font-face {
+    font-family: 'Dongle-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108_2@1.0/Dongle-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	body{
+	font-family: 'Dongle-Light';
+	text-align: center;
+	font-size: 30px;
+	}
+	* {
+  box-sizing: border-box;
+}
+body {
+  background: #30303A;
+  font-family: 'Dongle-Light', sans-serif;
+  color: #000;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h1 {
+  margin: 100px auto 0;
+  color: #000;
+}
+h2 {
+  margin: 10px auto 0;
+  font-size: 1.2em;
+  width: 230px;
+  height: 60px;
+  border-radius: 100px;
+  color: #fff;
+  background-color: #E99674;
+}
+p {
+  margin: 5vw auto;
+  padding: 0 5vw;
+  font-size: 45px;
+  line-height: 1.3em;
+  max-width: 60em; 
+}		
+		 .test_obj {
+        background-color: rgba(0, 0, 0, .1);
+        color: #000;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-radius: 25px;
+    }
+    .test_obj2 {
+        background-color: rgba(0, 0, 0, .1);
+        color: #000;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-radius: 25px;
+    }
+    .test_obj3 {
+        background-color: rgba(0, 0, 0, .1);
+        color: #000;
+        font-size: 15px;
+        line-height: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
+        border-radius: 25px;
+    }
+ 
+    .test_obj * {
+        transition: all 1s ease;
+        transition-delay: 0.2s;
+        font-size: 30px;
+    }
+    .test_obj2 * {
+        transition: all 1s ease;
+        transition-delay: 0.2s;
+        font-size: 30px;
+    }
+    .test_obj3 * {
+        transition: all 1s ease;
+        transition-delay: 0.2s;
+        font-size: 30px;
+    }
+    .test_obj2 * {
+        transition: all 1s ease;
+        transition-delay: 0.1s;
+        font-size: 30px;
+    }
+    .test_obj3 * {
+        transition: all 1s ease;
+        transition-delay: 0.0s;
+        font-size: 30px;
+    }
+    span{
+    	color: #fff;
+    }
+ 
+    .test_obj div {
+        background: linear-gradient(to right, #E99579 0%, #EB7654 100%);
+        position: relative;
+        width: 0;
+        border-radius: 25px;
+    }
+    .test_obj2 div {
+        background: linear-gradient(to right, #E99579 0%, #EB7654 100%);
+        position: relative;
+        width: 0;
+        border-radius: 25px;
+    }
+    .test_obj3 div {
+        background: linear-gradient(to right, #E99579 0%, #EB7654 100%);
+        position: relative;
+        width: 0;
+        border-radius: 25px;
+    }
+ 
+    .test_obj span:first-child {
+        padding-left: 15px;
+    }
+    .test_obj2 span:first-child {
+        padding-left: 15px;
+    }
+ 
+    .test_obj span:last-child {
+        position: absolute;
+        right: 15px;
+    }
+    .test_obj2 span:last-child {
+        position: absolute;
+        right: 15px;
+    }
+    .test_obj3 span:last-child {
+        position: absolute;
+        right: 15px;
+    }
+    .hideme{
+    opacity:0;
+	}
+	</style>
+</head>
+<body>
+	<img id="grandfa" href='https://ifh.cc/v-RMMetk' target='_blank'><img src='https://ifh.cc/g/RMMetk.gif' border='0' width='330px'></a>
+ 	<body style="background-color:#fbf1d2"></body>
+	<a href='https://ifh.cc/v-OCD6iK' target='_blank'><img src='https://ifh.cc/g/OCD6iK.png' border='0' width='400px'></a>
+
+<!--막대그래프-->
+<!--수면-->
+<h1>< 응식님의 수면시간 ></h1> 
+<h2>평균 7시간</h2>  
+<br>
+<div id="container">
+	 <div class="hideme">
+    
+		<div>
+	    <div class="test_obj">
+	        <div data-width="70">
+	            <span>80대 노인 평균</span>
+	            <span>7시간</span>
+        	</div>
+    </div>
+ </div>
+    <br>
+    <div id="container">
+	 <div class="hideme">
+	    <div class="test_obj">
+	        <div data-width="40">
+	            <span>응식님</span>
+	            <span>4시간</span>
+	        </div>
+	   	 </div>
+    	</div>
+    </div>
+</div>
+<p>응식님은 보통 4시간 정도 주무시네요~ 다른 어르신보단 3시간이나 적게 주무시군요.<br>
+보통 사람들은 수면을 위해 술을 마시는경우가 있는데, <br>만약 술로인해 숙면을 방해하는 불면증이 있다면 꼭!! 끊어야 해요.
+<br>
+알코올은 잠에 잘 들도록 하는 효과가 있긴 해요. <br>하지만 잠에서 쉽게 깨고, 한 번 깨고 나선 다시 잠들기
+어려워 지게 되거든요!</p>
+<br>
+
+<hr width="80%" color="#F9D98A">
+
+<br>
+<!--기상-->
+<h1>< 응식님의 기상시간 ></h1> 
+<h2>평균 6시</h2>  
+<br>
+
+	<div>
+    <div class="test_obj2">
+        <div data-width="60">
+            <span>80대 노인 평균</span>
+            <span>6시</span>
+        </div>
+    </div>
+    <br>
+    <div class="test_obj2">
+        <div data-width="70">
+            <span>응식님</span>
+            <span>7시</span>
+        </div>
+    </div>
+</div>
+<p>응식님은 항상 일찍 일어나는 습관을 지니셨군요! <br>
+하지만 늦게 주무시고 일찍 일어나는 습관은 좋지 않답니다. <br>
+늦게 자고 늦게 일어나는 것도 똑같아요. 나쁜 수면패턴이 지속되거나, <br>
+잠들 때까지 시간이 늘어나는 사람들은 
+인지기능이 떨어질 위험이 2배나 높다고 해요!!<br>
+그러니 우리 함께 생체 리듬을을 조절하면서 수면패턴을 고쳐보아요.</p>
+<br>
+ 
+ <hr width="80%" color="#F9D98A">
+
+ <br>
+<!--낮잠-->
+<h1>< 응식님의 낮잠시간 ></h1> 
+<h2>평균 45분</h2>  
+<br>
+
+	<div>
+    <div class="test_obj3">
+        <div data-width="60">
+            <span>80대 노인 평균</span>
+            <span>2시간</span>
+        </div>
+    </div>
+    <br>
+    <div class="test_obj3">
+        <div data-width="20">
+            <span>응식님</span>
+            <span>30분</span>
+        </div>
+    </div>
+</div>
+<p>응식님은 몇 시쯤에 낮잠을 자시나요?
+사실 낮잠은 오후에 잠깐 동안 자는 것이 인지 능력에 좋다고 해요. <br>
+연구에서 정의된 ‘낮잠’은 점심 식사 후 5분에서 2시간 사이의 수면을 취하는 것으로 알려져 있어요. <br>
+응식님도 적절한 낮잠을 자는 것을 권장드려요!</p>
+<br>
+
+<script>
+    $(function() {
+        function test() {
+            $(".test_obj > div ").each(function (i) {
+                var $this  = $(this),
+                    location = $this.data('width');
+                $this.css({'width' : location + '%'});
+            });
+        }
+        if($().appear) {
+            $('.test_obj').appear().on('appear', function() {
+                test();
+            });
+        } else {
+            test();
+        }
+    });
+
+    $(function() {
+        function test() {
+            $(".test_obj2 > div ").each(function (i) {
+                var $this  = $(this),
+                    location = $this.data('width');
+                $this.css({'width' : location + '%'});
+            });
+        }
+        if($().appear) {
+            $('.test_obj2').appear().on('appear', function() {
+                test();
+            });
+        } else {
+            test();
+        }
+    });
+
+    $(function() {
+        function test() {
+            $(".test_obj3 > div ").each(function (i) {
+                var $this  = $(this),
+                    location = $this.data('width');
+                $this.css({'width' : location + '%'});
+            });
+        }
+        if($().appear) {
+            $('.test_obj3').appear().on('appear', function() {
+                test();
+            });
+        } else {
+            test();
+        }
+    });
+
+
+
+    $(document).ready(function() {
+    /* 1 */
+    $(window).scroll( function(){
+        /* 2 */
+        $('.hideme').each( function(i){
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            /* 3 */
+            if( bottom_of_window > bottom_of_object/2 ){
+                $(this).animate({'opacity':'1'},500);
+            }
+        }); 
+    });
+
+
+
+
+});
+
+</script>
+
+<a href="https://web-4.neocities.org/">home</a>
+<br>
+<br>
+
+</body>
+</html>
